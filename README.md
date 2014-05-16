@@ -1,6 +1,15 @@
-# proxy-tamper
+# proxy-tamper (Fork)
 
 A HTTP proxy library for node.js that allows for selective requests to be tampered.
+I used this proxy to tamper the HTTP Request and insert some iframe inside the DOM. 
+You just need to run the proxy this way : 
+
+    node proxy.js toolkit.csrf.com:8080
+    
+Then, the iframe will be automatically inserted in the HTML response.
+
+
+### Original README.md
 
 ## Installation
 
